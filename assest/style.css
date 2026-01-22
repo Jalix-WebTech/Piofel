@@ -21,6 +21,7 @@ body {
 .container {
   width: 90%;
   max-width: 1100px;
+  padding-top: 20px;
   margin: auto;
 }
 
@@ -91,8 +92,7 @@ body {
 .hero {
   
   background: var(--light);
-  padding-top: 20px;
-  padding: 4rem 10px;
+  padding: 4rem 0;
   text-align: center;
 }
 
