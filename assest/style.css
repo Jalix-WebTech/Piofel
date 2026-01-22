@@ -89,8 +89,10 @@ body {
 
 /* Hero */
 .hero {
+  
   background: var(--light);
-  padding: 4rem 0;
+  padding-top: 20px;
+  padding: 4rem 10px;
   text-align: center;
 }
 
