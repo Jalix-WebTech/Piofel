@@ -295,7 +295,7 @@ body {
   background-color: #11111173;
   width: 100%;
   text-align: center;
-  max-width: 600px;
+  /* max-width: 600px; */
   padding: 1rem;
 }
 
