@@ -267,6 +267,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #00751d;
+  margin-bottom: 40px;
 }
 
 
@@ -302,7 +303,8 @@ body {
   align-items: center;
   text-align: center;
   /* max-width: 600px; */
-  padding-top: 200px;
+  padding-top: 150px;
+  padding-bottom: 40px;
   
 }
 
@@ -321,7 +323,10 @@ body {
 /* MOBILE */
 @media (max-width: 768px) {
   .video-section {
-    height: 55vh;
+    height: 100%;
+  }
+  .content {
+    padding-top: 100px;
   }
 }
 
