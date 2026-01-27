@@ -260,7 +260,7 @@ body {
 /* VIDEO SECTION */
 .video-section {
   position:relative;
-  height: 85vh;
+  height: 75vh;
   overflow: hidden;
   display: flex;
   align-items: center;
