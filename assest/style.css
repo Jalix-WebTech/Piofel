@@ -266,7 +266,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00751d;
+  background-color: #00751d46;
   margin-bottom: 40px;
 }
 
@@ -317,13 +317,14 @@ body {
 .content p {
   font-size: 1.1rem;
   opacity: 0.9;
+  margin-bottom: 200px;
 
 }
 
 /* MOBILE */
 @media (max-width: 768px) {
   .video-section {
-    height: 100%;
+    height: 75vh;
   }
   .content {
     padding-top: 100px;
@@ -353,4 +354,41 @@ body {
   justify-items: center;
   padding-top: 20px;
 
+}
+
+/* SVG */
+.svg-a{
+  height: auto; 
+  width: 60px; 
+  fill: rgba(202, 98, 0, 0.938);
+}
+
+.svg-b{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(0, 97, 255);
+}
+
+.svg-c{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(0, 109, 15);
+}
+
+.svg-d{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(102, 0, 44);
+}
+
+.svg-e{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(0, 255, 21);
+}
+
+.svg-f{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(0, 133, 40);
 }
