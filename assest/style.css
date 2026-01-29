@@ -53,6 +53,7 @@ body {
 .logo-text{
   color: green;
   font-family:'Times New Roman', Times, serif;
+  font-size: clamp(1.5rem, 2vw, 1.6rem);
 }
 
 .logo-link{
