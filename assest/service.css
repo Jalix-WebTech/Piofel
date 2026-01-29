@@ -1,0 +1,51 @@
+/* SERVICE HERO */
+.service-hero {
+  position:relative;
+  height: 75vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00c0305b;
+  margin-bottom: 40px;}
+
+  /* MOBILE */
+@media (max-width: 768px) {
+  .service-hero {
+    height: 50vh;
+  }
+  .content {
+    padding-top: 100px;
+  }
+  .content p{
+    margin-top: 40px;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+  }
+}
+
+.CeoContainer h2{
+  width: 100%;
+  text-align: center;
+}
+
+#more-service-container{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+#more-service-container div{
+  width: 400px;
+  height: 50px;
+  background-color: rgba(0, 255, 255, 0.158);
+  border-radius: 6px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
