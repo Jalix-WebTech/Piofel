@@ -44,8 +44,45 @@
   height: 50px;
   background-color: rgba(0, 255, 255, 0.158);
   border-radius: 6px;
-  justify-content: center;
+  justify-content: left;
   display: flex;
-  align-items: center;
+  align-items:center;
+  padding-left: 20px;
+}
+
+#more-service-container h2{
+  width: 100%;
+  text-align: center;
+
+}
+
+.other-services{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  
+}
+
+.svg-service{
+  height: auto; 
+  width: 10px; 
+  fill: rgb(0, 0, 0);
+}
+
+.svg1{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(241, 157, 0);
+}
+
+.svg2{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(0, 97, 255);
+}
+
+.svg3{
+  height: auto; 
+  width: 60px; 
+  fill: rgb(0, 109, 15);
 }
 
