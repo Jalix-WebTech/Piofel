@@ -86,3 +86,9 @@
   fill: rgb(0, 109, 15);
 }
 
+.why-us{
+  width: 100%;
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 1.6rem);
+}
+
