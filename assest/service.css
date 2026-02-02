@@ -24,7 +24,22 @@
   }
 }
 
+.CeoContainer-2{
+  width: 100%;
+  display: flex;
+  margin-bottom: 40px;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
 .CeoContainer h2{
+  width: 100%;
+  text-align: left;
+}
+
+.serv-sec-head{
   width: 100%;
   text-align: center;
 }

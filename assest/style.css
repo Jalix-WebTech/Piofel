@@ -197,6 +197,16 @@ body {
   border-radius: 10px;
 }
 
+.card h4{
+  font-size: clamp(1.5rem 1.7vw, 1rem);
+  text-align: left;
+}
+
+.card p{
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-align: left;
+}
+
 /* CTA */
 .cta {
   background: var(--primary);
@@ -329,7 +339,7 @@ body {
 .content p {
   font-size: clamp(1rem, 4vw, 2.5rem);
   opacity: 0.9;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   text-align: center;
 
 }
@@ -494,3 +504,6 @@ body {
   animation: pulse 2.5s infinite;
 }
 
+.gap{
+  height: 100px;
+}
