@@ -358,7 +358,7 @@ body {
 /* MOBILE */
 @media (max-width: 768px) {
   .video-section {
-    height: 65vh;
+    height: 75vh;
   }
   .content {
     padding-top: 100px;
