@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lottie-container {
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Main Lottie background */
+#lottie-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Content overlay */
+.content {
+  position: relative;
+  z-index: 2;
+  height: 75vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Small divs */
+.box {
+  position: relative;
+  width: 240px;
+  height: 140px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* Lottie inside small div */
+.box-lottie {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Text above lottie */
+.box-text {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+}
